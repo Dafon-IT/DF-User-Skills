@@ -294,6 +294,7 @@ Authorization: Bearer {accessToken}
     {
       "occ01": "C001",
       "occ02": "大豐環保科技",
+      "occ42": "NTD",
       "occ43": "A01",
       "occ231": "台北市信義區...",
       "occ44": "NET",
@@ -307,6 +308,7 @@ Authorization: Bearer {accessToken}
 |----------|------|
 | `occ01` | 客戶代號 |
 | `occ02` | 客戶名稱 |
+| `occ42` | 慣用幣別 |
 | `occ43` | 銷售分類 |
 | `occ231` | 客戶地址 |
 | `occ44` | 收款條件類型 |

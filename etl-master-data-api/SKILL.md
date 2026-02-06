@@ -80,7 +80,7 @@ export ETL_API_BASE_URL="https://zpos-api-stage.zerozero.com.tw"
 - **端點**: `/api/etl/customer/search`
 - **方法**: POST
 - **參數**: `occ01` (客戶代號) / `occ02` (客戶名稱)
-- **回傳**: 客戶代號、名稱、銷售分類、地址、收款條件等
+- **回傳**: 客戶代號、名稱、慣用幣別、銷售分類、地址、收款條件等
 
 #### 8. 匯率查詢
 - **端點**: `/api/etl/exchange-rate/search`
@@ -173,6 +173,7 @@ export ETL_API_BASE_URL="https://zpos-api-stage.zerozero.com.tw"
 |----------|----------|----------|
 | **客戶** | `occ01` | 客戶代號 |
 | | `occ02` | 客戶名稱 |
+| | `occ42` | 慣用幣別 |
 | | `occ43` | 銷售分類 |
 | | `occ231` | 客戶地址 |
 | | `occ44` | 收款條件類型 |
