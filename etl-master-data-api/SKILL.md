@@ -62,7 +62,7 @@ export ETL_API_BASE_URL="https://zpos-api-stage.zerozero.com.tw"
 - **端點**: `/api/etl/material/search`
 - **方法**: POST
 - **參數**: `ima01` (料件編號) / `ima02` (料件名稱)
-- **回傳**: 料件編號、料件名稱
+- **回傳**: 料件編號、料件名稱、規格、計價單位
 
 #### 5. 固定資產查詢
 - **端點**: `/api/etl/fixed-asset/search`
@@ -162,6 +162,8 @@ export ETL_API_BASE_URL="https://zpos-api-stage.zerozero.com.tw"
 | | `aag02` | 科目名稱 |
 | **料件** | `ima01` | 料件編號 |
 | | `ima02` | 料件名稱 |
+| | `ima021` | 規格 |
+| | `ima908` | 計價單位 |
 | **固定資產** | `faj02` | 資產編號 |
 | | `faj06` | 資產名稱 |
 | **帳款類別** | `apr01` | 類別代碼 |

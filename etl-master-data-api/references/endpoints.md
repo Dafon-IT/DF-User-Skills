@@ -197,7 +197,9 @@ Authorization: Bearer {accessToken}
   "data": [
     {
       "ima01": "0101001001002",
-      "ima02": "紙管"
+      "ima02": "紙管",
+      "ima021": "φ76×500mm",
+      "ima908": "支"
     }
   ]
 }
@@ -207,6 +209,8 @@ Authorization: Bearer {accessToken}
 |----------|------|
 | `ima01` | 料件編號 |
 | `ima02` | 料件名稱 |
+| `ima021` | 規格 |
+| `ima908` | 計價單位 |
 
 ---
 
